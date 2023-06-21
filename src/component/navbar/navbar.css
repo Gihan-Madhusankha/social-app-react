@@ -1,12 +1,15 @@
 .input-wrapper{
-    border: 1px solid red;
     align-items: center;
-    /* border-radius: ; */
+    background-color: #F0F2F5;
 }
 
 .input-field{
-    background: yellowgreen;
+    background-color: #F0F2F5;
     border: none;
-    width: 85%;
-    
+    width: 80%;
+    border: none;
+}
+
+.input-field:focus{
+    outline: none;
 }

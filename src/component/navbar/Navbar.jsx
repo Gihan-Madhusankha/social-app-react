@@ -7,7 +7,7 @@ import './navbar.css';
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar border-bottom shadow-sm navbar-expand-md bg-body-tertiary">
+      <nav className="navbar border-bottom shadow-sm navbar-expand-md bg-white">
         <div className="container-fluid">
           <div className="row">
             {/* logo and search bar */}
@@ -19,12 +19,12 @@ const Navbar = () => {
                     className="ms-2"
                     src={facebook}
                     alt="facebook.png"
-                    style={{ width: "100%" }}
+                    style={{ width: "100%", cursor:'pointer'}}
                   />
                 </div>
                 {/* search bar */}
                 <div className="col-8 rounded-pill p-0 d-flex justify-content-start input-wrapper">
-                  <FaSearch className="ms-2 me-2"/>
+                  <FaSearch className="ms-3 me-2"/>
                   <input
                     className="input-field ps-2"
                     type="text"
